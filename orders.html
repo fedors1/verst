@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Заказы</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="my_selectors/selectors.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+
+        <div class="sidebar">
+        <div class="sidebar-content">
+            <div class="offcanvas-header">
+                <i class="bi bi-bootstrap me-2"></i>
+                <h5 class="offcanvas-title">Меню</h5>
+            </div>
+            <div class="d-grid gap-1 px-3">
+                <a href="main.html" class="btn btn-dark" style="width: 100%; text-align: left; color: white;">
+                    <i class="bi bi-house"></i>
+                    Главная
+                </a>
+                <a href="categories.html" class="btn btn-dark" style="width: 100%; text-align: left; color: white;">
+                    <i class="bi bi-speedometer2"></i>
+                    Категории
+                </a>
+                <a href="orders.html" class="btn btn-dark" style="width: 100%; text-align: left; color: white;">
+                    <i class="bi bi-table"></i>
+                    Заказы
+                </a>
+                <a href="contacts.html" class="btn btn-dark" style="width: 100%; text-align: left; color: white;">
+                    <i class="bi bi-person-circle"></i>
+                    Контакты
+                </a>
+            </div>
+        </div>
+
+        <div class="user-section">
+            <div class="user-avatar"></div>
+                <div class="btn-group dropup">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="background: none; border: none; color: white;">
+                        Пользователь
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#" style="background: none; border: none; color: black;">Профиль</a></li>
+                        <li><a class="dropdown-item" href="#" style="background: none; border: none; color: black;">Выход</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+      <div class="container mt-4">
+            <h1 class="header-one">Каталог</h1>
+      <div class="row" style="margin: 45px; margin-left: 255px;">
+
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIALwAyAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAGhABAAIDAQAAAAAAAAAAAAAAAAFxAgMzsf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AOK7OmVz6i7Omdz6yiqIKiiAKIAogCiAKIAogCiAKIAogCiANa+kXHoa+mNx6Ips6Z3PrLWzpnc+srEAAAAAAAAAAAAAAAAAAAAAAa19MLj0NfTC49EU2dM7n1lrZ0zufWViAAAAAAAAAAAAAAAAAAAAAANa+mFx6GvphceiKbOmdz6y1s6Z3PrKxAAAAAAAAAAAAAAAAAAAAAAGtfTC4DX0wuBFNnTO59Za2dM7n1lYgAAAAAAAAAAAAAAAAAAAAADWvphcBr6YXAimzpnc+stbOmdz6ysQAAAAAAAAAAAAAAAAAAAAABrX0wuA19MLgRTZ0zufWWtnTO59ZWIAAAAAAAAAAAAAAAAAAAAAA1r6YXAa+mFx6Ips6Z3PrLWzpnc+srEAAAAAAAAAAAAAAAAAAAAAAa19MLj0NfTC49EU2dM7n1lrZ0zufWViAAAAAAAAAAAAAAAAAAAAAANa+mFx6GvphceiKbOmdz6y1s6Z3PrKxAAAAAAAAAAAAAAAAAAAAAAGtfTC49DX0wuPRFNnTO59Za2dM7n1lYgAAAAAAAAAAAAAAAAAAAAADWvphcehr6YXHoimzpnc+stbOmVyixEFAQUBBQEFAQUBBQEFAQUBBQEFAQUBdfTC49DX0xuPRFf/2Q==" class="card-img-top" style="height: 250px;">
+              <div class="card-body">
+                <p class="card-text" style="text-align: left; padding-left: 0; color: black;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="btn-group" role="group" aria-label="Basic outlined example">
+                      <button type="button" class="btn btn-outline-primary">View</button>
+                      <button type="button" class="btn btn-outline-primary">Edit</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIALwAyAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAGhABAAIDAQAAAAAAAAAAAAAAAAFxAgMzsf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AOK7OmVz6i7Omdz6yiqIKiiAKIAogCiAKIAogCiAKIAogCiANa+kXHoa+mNx6Ips6Z3PrLWzpnc+srEAAAAAAAAAAAAAAAAAAAAAAa19MLj0NfTC49EU2dM7n1lrZ0zufWViAAAAAAAAAAAAAAAAAAAAAANa+mFx6GvphceiKbOmdz6y1s6Z3PrKxAAAAAAAAAAAAAAAAAAAAAAGtfTC4DX0wuBFNnTO59Za2dM7n1lYgAAAAAAAAAAAAAAAAAAAAADWvphcBr6YXAimzpnc+stbOmdz6ysQAAAAAAAAAAAAAAAAAAAAABrX0wuA19MLgRTZ0zufWWtnTO59ZWIAAAAAAAAAAAAAAAAAAAAAA1r6YXAa+mFx6Ips6Z3PrLWzpnc+srEAAAAAAAAAAAAAAAAAAAAAAa19MLj0NfTC49EU2dM7n1lrZ0zufWViAAAAAAAAAAAAAAAAAAAAAANa+mFx6GvphceiKbOmdz6y1s6Z3PrKxAAAAAAAAAAAAAAAAAAAAAAGtfTC49DX0wuPRFNnTO59Za2dM7n1lYgAAAAAAAAAAAAAAAAAAAAADWvphcehr6YXHoimzpnc+stbOmVyixEFAQUBBQEFAQUBBQEFAQUBBQEFAQUBdfTC49DX0xuPRFf/2Q==" class="card-img-top" style="height: 250px;">
+              <div class="card-body">
+                <p class="card-text" style="text-align: left; padding-left: 0; color: black;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="btn-group" role="group" aria-label="Basic outlined example">
+                      <button type="button" class="btn btn-outline-primary">View</button>
+                      <button type="button" class="btn btn-outline-primary">Edit</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIALwAyAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAGhABAAIDAQAAAAAAAAAAAAAAAAFxAgMzsf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AOK7OmVz6i7Omdz6yiqIKiiAKIAogCiAKIAogCiAKIAogCiANa+kXHoa+mNx6Ips6Z3PrLWzpnc+srEAAAAAAAAAAAAAAAAAAAAAAa19MLj0NfTC49EU2dM7n1lrZ0zufWViAAAAAAAAAAAAAAAAAAAAAANa+mFx6GvphceiKbOmdz6y1s6Z3PrKxAAAAAAAAAAAAAAAAAAAAAAGtfTC4DX0wuBFNnTO59Za2dM7n1lYgAAAAAAAAAAAAAAAAAAAAADWvphcBr6YXAimzpnc+stbOmdz6ysQAAAAAAAAAAAAAAAAAAAAABrX0wuA19MLgRTZ0zufWWtnTO59ZWIAAAAAAAAAAAAAAAAAAAAAA1r6YXAa+mFx6Ips6Z3PrLWzpnc+srEAAAAAAAAAAAAAAAAAAAAAAa19MLj0NfTC49EU2dM7n1lrZ0zufWViAAAAAAAAAAAAAAAAAAAAAANa+mFx6GvphceiKbOmdz6y1s6Z3PrKxAAAAAAAAAAAAAAAAAAAAAAGtfTC49DX0wuPRFNnTO59Za2dM7n1lYgAAAAAAAAAAAAAAAAAAAAADWvphcehr6YXHoimzpnc+stbOmVyixEFAQUBBQEFAQUBBQEFAQUBBQEFAQUBdfTC49DX0xuPRFf/2Q==" class="card-img-top" style="height: 250px;">
+              <div class="card-body">
+                <p class="card-text" style="text-align: left; padding-left: 0; color: black;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="btn-group" role="group" aria-label="Basic outlined example">
+                      <button type="button" class="btn btn-outline-primary">View</button>
+                      <button type="button" class="btn btn-outline-primary">Edit</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIALwAyAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAGhABAAIDAQAAAAAAAAAAAAAAAAFxAgMzsf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AOK7OmVz6i7Omdz6yiqIKiiAKIAogCiAKIAogCiAKIAogCiANa+kXHoa+mNx6Ips6Z3PrLWzpnc+srEAAAAAAAAAAAAAAAAAAAAAAa19MLj0NfTC49EU2dM7n1lrZ0zufWViAAAAAAAAAAAAAAAAAAAAAANa+mFx6GvphceiKbOmdz6y1s6Z3PrKxAAAAAAAAAAAAAAAAAAAAAAGtfTC4DX0wuBFNnTO59Za2dM7n1lYgAAAAAAAAAAAAAAAAAAAAADWvphcBr6YXAimzpnc+stbOmdz6ysQAAAAAAAAAAAAAAAAAAAAABrX0wuA19MLgRTZ0zufWWtnTO59ZWIAAAAAAAAAAAAAAAAAAAAAA1r6YXAa+mFx6Ips6Z3PrLWzpnc+srEAAAAAAAAAAAAAAAAAAAAAAa19MLj0NfTC49EU2dM7n1lrZ0zufWViAAAAAAAAAAAAAAAAAAAAAANa+mFx6GvphceiKbOmdz6y1s6Z3PrKxAAAAAAAAAAAAAAAAAAAAAAGtfTC49DX0wuPRFNnTO59Za2dM7n1lYgAAAAAAAAAAAAAAAAAAAAADWvphcehr6YXHoimzpnc+stbOmVyixEFAQUBBQEFAQUBBQEFAQUBBQEFAQUBdfTC49DX0xuPRFf/2Q==" class="card-img-top" style="height: 250px;">
+              <div class="card-body">
+                <p class="card-text" style="text-align: left; padding-left: 0; color: black;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="btn-group" role="group" aria-label="Basic outlined example">
+                      <button type="button" class="btn btn-outline-primary">View</button>
+                      <button type="button" class="btn btn-outline-primary">Edit</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js">
+        </script>
+</body>
+</html>
